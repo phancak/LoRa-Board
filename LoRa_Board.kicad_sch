@@ -20079,74 +20079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 193.04 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ed1cfe0-5a34-4c5d-a578-9269813cafea")
-		(property "Reference" "FB1"
-			(at 192.9892 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ILB1206ER700V_1206"
-			(at 192.9892 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 193.04 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7564db4-7207-45c1-aec2-a6a4cac2809f")
-		)
-		(pin "2"
-			(uuid "cd8092da-e522-49bb-95f0-2c9232281f38")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 132.08 55.88 0)
 		(mirror y)
@@ -24522,6 +24454,73 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 193.04 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd2c9c56-8d13-4dcd-86d0-284d1e84419c")
+		(property "Reference" "FB1"
+			(at 188.976 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM21PG601SN1D_0805"
+			(at 197.104 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 193.04 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "222a0f5e-4bc2-42a6-8626-5a953603f37f")
+		)
+		(pin "2"
+			(uuid "9f58f779-ad76-4e11-b715-379b5502d45e")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
