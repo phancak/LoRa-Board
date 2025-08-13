@@ -14744,17 +14744,6 @@
 		)
 		(uuid "85061191-db8d-42e1-9f2b-526ff0cccf6f")
 	)
-	(text "STM32MP157FAD1 TFBGA257 Pitch 0.5 2x\nSTM32WB55CGU6 2x\nSTM32WB5MMGH6TR\nSTM32MP135DAF7 TFBGA320 Pitch 0.5\nSTM32H7S7L8H6H\n\nSTSPIN958TR\nSTM32H7S3I8T6\nLSM6DSV16XTR\nISM330BXTR\nSTM32WL55CCU6\nSTM32WL55JCI6 2x\n\nAGVLB.25B.07.0060A Connector: I-PEX MHF® I (U.FL Compatible)\nGW.52.A153 2.4/5.8/7.1GHZ Hinged RP-SMA (M) Connector\nTI.96.A113 900-940MHZ Connector: SMA(M)\n\nCS5381K-KSZ IC 120DB 192KHZ MULTI-BIT ADC 2x\n\nR9A07G044L28GBG#BC0 551-LFBGA (21x21) pitch 0.8mm"
-		(exclude_from_sim no)
-		(at -45.72 26.162 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "87e2b650-292a-4e01-bd2e-a677cdb0416b")
-	)
 	(text "ST-LINK Connections:\nVCP_TX, SWCLK, SWDIO, VCP_RX, NRST"
 		(exclude_from_sim no)
 		(at 368.046 258.826 0)
