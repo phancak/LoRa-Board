@@ -989,6 +989,26 @@
     [
       "34ccaf76-212c-4f8e-9afa-bb7eea5015e3",
       "Root"
+    ],
+    [
+      "5cd88786-5135-40a9-a16f-33c980150b98",
+      "STM32WL55CCU6"
+    ],
+    [
+      "3303ad38-3ac3-4e68-96af-2b05d17ec8a5",
+      "RF_ANT"
+    ],
+    [
+      "336ebea6-c9a7-4c8d-a774-b509fb11d0ab",
+      "Interfaces"
+    ],
+    [
+      "c04c6a26-8055-4d4b-aa4b-63838eda4582",
+      "Power_Management"
+    ],
+    [
+      "e6eb96f4-8769-4ab2-bb8c-30c74f2fe241",
+      "USB"
     ]
   ],
   "text_variables": {}
