@@ -503,7 +503,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -519,8 +519,25 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PWR3V3",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -537,7 +554,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR5V",
-        "pcb_color": "rgb(132, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.7,
@@ -554,8 +571,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgb(255, 255, 0)",
-        "schematic_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.25,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -571,7 +588,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SMPS",
-        "pcb_color": "rgb(255, 153, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -587,8 +604,25 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SW",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -604,8 +638,8 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "USART1",
-        "pcb_color": "rgb(0, 132, 132)",
+        "name": "USART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -622,8 +656,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(0, 255, 255)",
-        "schematic_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.235,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -650,7 +684,7 @@
       },
       {
         "netclass": "RF",
-        "pattern": "/RF*"
+        "pattern": "*RF*"
       },
       {
         "netclass": "RF",
@@ -689,8 +723,24 @@
         "pattern": "/VFBSMPS"
       },
       {
-        "netclass": "USART1",
-        "pattern": "/*USART1*"
+        "netclass": "USART",
+        "pattern": "*UART1*"
+      },
+      {
+        "netclass": "USART",
+        "pattern": "*USART*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "PWR3V3",
+        "pattern": "*VDD*"
       }
     ]
   },

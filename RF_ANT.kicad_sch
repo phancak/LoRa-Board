@@ -2365,16 +2365,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 106.68) (xy 109.22 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54bcd151-c9a6-442a-acdd-a7d4a6e4d3af")
-	)
-	(wire
-		(pts
 			(xy 101.6 153.67) (xy 92.71 153.67)
 		)
 		(stroke
@@ -2422,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "59f21b89-15c2-4ccc-8f19-7a4987dbada0")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a26287e-f0fe-4aa2-98b5-932ff8857ae7")
 	)
 	(wire
 		(pts
@@ -2852,6 +2852,16 @@
 			(type default)
 		)
 		(uuid "99007248-9622-4a2d-8bd5-4b9ca307407f")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e437e6e-2594-4522-b6e3-04f9aa6a7a2f")
 	)
 	(wire
 		(pts
@@ -3627,6 +3637,90 @@
 			(justify left bottom)
 		)
 		(uuid "faefb5fe-8e9f-4814-a966-f67b8ee6bec5")
+	)
+	(hierarchical_label "RFO_HP"
+		(shape input)
+		(at 25.4 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13ba4b99-305b-4cda-9655-177b70698e7f")
+	)
+	(hierarchical_label "RFO_LP"
+		(shape input)
+		(at 25.4 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "431aa62e-456d-4dd8-ab71-01769cff2229")
+	)
+	(hierarchical_label "RFI_N"
+		(shape output)
+		(at 25.4 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "519b062f-bdfc-47c5-bc97-6d9331034d06")
+	)
+	(hierarchical_label "PA5_INOUTRF"
+		(shape bidirectional)
+		(at 115.57 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57269ab3-91ee-4f59-b887-b08b673dee57")
+	)
+	(hierarchical_label "PA7_HPLP_CTRL"
+		(shape input)
+		(at 49.53 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ed0cdb8-e7e6-465c-ab18-b743507ca777")
+	)
+	(hierarchical_label "VR_PA"
+		(shape bidirectional)
+		(at 25.4 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab292fde-5912-422f-abf9-e6f9e4c6d0eb")
+	)
+	(hierarchical_label "RFI_P"
+		(shape output)
+		(at 25.4 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6ebda5d-d9b7-4c3c-93a2-d7a9c98a70e0")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -5526,8 +5620,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 109.22 106.68 90)
-		(mirror x)
+		(at 114.3 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5535,7 +5629,7 @@
 		(dnp no)
 		(uuid "69d3d490-c030-4120-9b82-9b5c010fb02f")
 		(property "Reference" "#PWR016"
-			(at 113.03 106.68 0)
+			(at 114.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5638,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.426 108.966 90)
+			(at 117.094 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 106.68 0)
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 106.68 0)
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +5665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 106.68 0)
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
