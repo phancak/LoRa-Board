@@ -413,7 +413,7 @@
 			(color 0 255 255 1.0000)
 		)
 		(uuid "3303ad38-3ac3-4e68-96af-2b05d17ec8a5")
-		(property "Sheetname" "RF_ANT"
+		(property "Sheetname" "Antenna"
 			(at 29.21 23.4184 0)
 			(effects
 				(font

@@ -6429,7 +6429,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 160.782 152.4 90)
+			(at 167.64 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
