@@ -3337,6 +3337,7 @@
 	)
 	(label "VBUS"
 		(at 190.5 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
