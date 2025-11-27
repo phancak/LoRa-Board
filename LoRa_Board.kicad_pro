@@ -505,7 +505,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(194, 194, 194)",
+        "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
