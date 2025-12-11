@@ -1794,12 +1794,6 @@
 		(uuid "65f89ef8-afa3-4633-91b4-c444b1293a90")
 	)
 	(junction
-		(at 59.69 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fed43a8-d87f-422d-8cc7-91f7e44eac94")
-	)
-	(junction
 		(at 43.18 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2003,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 127) (xy 242.57 142.24)
+			(xy 242.57 127) (xy 242.57 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 96.52 72.39)
+			(xy 96.52 63.5) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2090,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "17c2ad5b-c773-45a4-a97e-9383374c6e1e")
+	)
+	(wire
+		(pts
+			(xy 93.98 53.34) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c79ae4-2955-4020-a5a9-9dc927209d1f")
 	)
 	(wire
 		(pts
@@ -2303,17 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ea0efca-470b-4e19-867d-abe0f68f9df7")
-	)
-	(wire
-		(pts
-			(xy 67.31 66.04) (xy 59.69 66.04)
+			(xy 55.88 66.04) (xy 67.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2373,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347af332-188e-4394-9b6d-7e6d7d40b148")
-	)
-	(wire
-		(pts
 			(xy 96.52 72.39) (xy 96.52 73.66)
 		)
 		(stroke
@@ -2390,6 +2374,16 @@
 			(type default)
 		)
 		(uuid "34c152f9-0084-4c2c-a011-89ec0510924d")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b947b9-7dba-49aa-aa23-4d5fdb2a5735")
 	)
 	(wire
 		(pts
@@ -2550,6 +2544,16 @@
 			(type default)
 		)
 		(uuid "573178c4-a2e2-4cd4-b717-1c2a8d9a3425")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fbdc95-8596-483f-99aa-b690f59f2f05")
 	)
 	(wire
 		(pts
@@ -2993,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 142.24)
+			(xy 92.71 114.3) (xy 92.71 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3070,16 +3074,6 @@
 			(type default)
 		)
 		(uuid "b0d8b93c-bc4e-41d2-80c4-fb38ae5efdc2")
-	)
-	(wire
-		(pts
-			(xy 93.98 63.5) (xy 87.63 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4af8d36-0413-4f8d-be21-5e293325f703")
 	)
 	(wire
 		(pts
@@ -3193,16 +3187,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 55.88 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02b94f4-4a5b-438a-b832-34badad625ba")
-	)
-	(wire
-		(pts
 			(xy 43.18 124.46) (xy 43.18 127)
 		)
 		(stroke
@@ -3303,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 142.24) (xy 242.57 142.24)
+			(xy 92.71 146.05) (xy 242.57 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3491,17 +3475,27 @@
 		)
 		(uuid "695cc7c1-e8a7-40e4-82b7-08a0a3a5b9b7")
 	)
-	(text "CHECK!"
+	(text "RF_Switch_PE42440MLBB-Z\nV1 (PA7_HPLP_CTRL)   V2 (PA5_INOUTRF)   OUTPUT                 CCT\n0                    0                  RFC - RF1 (PIN13)      HP\n1                    0                  RFC - RF2 (PIN15)      NC\n0                    1                  RFC - RF3 (PIN8)       RFIN\n1                    1                  RFC - RF4 (PIN6)       LP"
 		(exclude_from_sim no)
-		(at 92.71 64.008 0)
+		(at 204.216 162.814 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(size 1 1)
 			)
+			(justify left)
 		)
-		(uuid "ae1736dc-796f-4d6b-9bc5-5b81decefac6")
+		(uuid "7a0bb06f-a78d-472e-a17f-7d4e8fe629b7")
+	)
+	(text "NX3L1T3157GM,115 Ouputs\nS      OUT    CCT\nHIGH   Y1     LP(Y0)\nLOW    Y0     HP(Y1)"
+		(exclude_from_sim no)
+		(at 46.99 74.93 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "beda94cd-cc8c-45bd-8b24-1934dd8af03e")
 	)
 	(label "PA5_INOUTRF"
 		(at 115.57 109.22 0)
@@ -6907,74 +6901,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/3303ad38-3ac3-4e68-96af-2b05d17ec8a5"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 59.69 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97819660-90dd-4217-8c42-058a8e1350e8")
-		(property "Reference" "#FLG07"
-			(at 59.69 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 59.6901 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f506d1f6-09f4-4c8d-aaf4-81189ae206c6")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/3303ad38-3ac3-4e68-96af-2b05d17ec8a5"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)

@@ -423,7 +423,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 13.97 180)
 					(length 5.08)
 					(name "VBUS"
@@ -513,7 +513,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 11.43 180)
 					(length 5.08)
 					(name "VBUS"
@@ -567,7 +567,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "VBUS"
@@ -657,7 +657,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 8.89 180)
 					(length 5.08)
 					(name "VBUS"
@@ -2233,6 +2233,12 @@
 		(uuid "034e0475-ebdc-40c0-9f13-8683fc6078e1")
 	)
 	(junction
+		(at 110.49 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10985092-4e31-4a18-b65f-5db125515119")
+	)
+	(junction
 		(at 105.41 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2534,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 58.42) (xy 116.84 58.42)
+			(xy 82.55 58.42) (xy 110.49 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2934,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 58.42) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2d5bb3-a4cf-47f6-a83a-af10d618200d")
+	)
+	(wire
+		(pts
 			(xy 167.64 69.85) (xy 167.64 90.17)
 		)
 		(stroke
@@ -3251,25 +3267,6 @@
 			(type default)
 		)
 		(uuid "fd592a60-823f-4a58-9f42-b43faddcf330")
-	)
-	(text_box "Place near the USB connector"
-		(exclude_from_sim no)
-		(at 107.95 45.085 0)
-		(size 62.865 34.29)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6d210544-f84d-4fc4-9ed8-c805c2ca15e5")
 	)
 	(text "FT230XS as close as possible\nto USB port"
 		(exclude_from_sim no)
@@ -4564,6 +4561,74 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53e9c1c-64dc-4ac5-bd68-89e7c4ef6789")
+		(property "Reference" "#FLG04"
+			(at 110.49 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.4901 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ec1fcc-1b28-4356-98b1-d9b2bd1156bf")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

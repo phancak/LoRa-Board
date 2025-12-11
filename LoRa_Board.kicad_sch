@@ -11,15 +11,13 @@
 		(color 0 0 0 0)
 		(uuid "bb2726e0-3588-4dff-b51f-7d50ab5b8adb")
 	)
-	(wire
-		(pts
-			(xy 78.74 97.79) (xy 114.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04be82aa-7170-4d70-84a2-f5f4b93a001e")
+	(no_connect
+		(at 163.83 83.82)
+		(uuid "42210087-1d37-439a-aa96-8d5e4566a624")
+	)
+	(no_connect
+		(at 163.83 81.28)
+		(uuid "7fc083c4-1178-435e-a7d2-de37a0d8d2ab")
 	)
 	(wire
 		(pts
@@ -33,23 +31,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 95.25) (xy 114.3 95.25)
+			(xy 78.74 102.87) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07ba5bad-9fd6-4fd8-896f-0f8042370477")
-	)
-	(wire
-		(pts
-			(xy 163.83 76.2) (xy 200.66 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1ad743-8166-4037-a180-72ee35128bc7")
+		(uuid "0ad9ff05-14ac-475e-beb8-fff2cccdc7bd")
 	)
 	(wire
 		(pts
@@ -63,33 +51,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 200.66 81.28)
+			(xy 78.74 97.79) (xy 114.3 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13297dd5-e0e8-4a56-8691-160a9920222b")
-	)
-	(wire
-		(pts
-			(xy 78.74 102.87) (xy 114.3 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182db4fd-d9b4-4d3b-8d7d-5d990e9df894")
-	)
-	(wire
-		(pts
-			(xy 163.83 78.74) (xy 200.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207d1836-9df8-4252-affd-613924ddcf06")
+		(uuid "14699a08-498b-4dea-9fa4-d4e6574c64f3")
 	)
 	(wire
 		(pts
@@ -143,13 +111,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 200.66 97.79)
+			(xy 163.83 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fc96dbf-15b3-4121-9705-d669ba4bf10f")
+		(uuid "40cdc135-7649-45e4-832f-b05a9b6cffed")
 	)
 	(wire
 		(pts
@@ -173,16 +141,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 200.66 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54360653-a45f-497c-9db4-2b0b0793a6f5")
-	)
-	(wire
-		(pts
 			(xy 175.26 158.75) (xy 102.87 158.75)
 		)
 		(stroke
@@ -203,23 +161,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 200.66 73.66)
+			(xy 78.74 100.33) (xy 114.3 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fc00ec9-aa4e-4d9b-b090-e3aa78315429")
-	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 200.66 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739e0a7f-af6b-4720-875e-2c68167bbf1a")
+		(uuid "6b437899-d2e1-4f45-9f61-b80f4fa3c409")
 	)
 	(wire
 		(pts
@@ -230,6 +178,16 @@
 			(type default)
 		)
 		(uuid "7c239e0c-6c47-406c-889e-6682a6235481")
+	)
+	(wire
+		(pts
+			(xy 163.83 76.2) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce3f72a-9fab-4f12-8b79-2b4805766811")
 	)
 	(wire
 		(pts
@@ -313,6 +271,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a6e3ba-0adc-4a77-af9f-a84493337c4b")
+	)
+	(wire
+		(pts
 			(xy 102.87 158.75) (xy 102.87 139.7)
 		)
 		(stroke
@@ -330,16 +298,6 @@
 			(type default)
 		)
 		(uuid "ca767f9f-02d6-4b79-87b4-ff17b3f3be82")
-	)
-	(wire
-		(pts
-			(xy 78.74 100.33) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db99ef57-bf61-4405-bf99-a11648fe49d3")
 	)
 	(wire
 		(pts
@@ -363,6 +321,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 97.79) (xy 200.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5eef2c3-7e4c-4447-b89c-bc83e9ee15b7")
+	)
+	(wire
+		(pts
 			(xy 163.83 31.75) (xy 200.66 31.75)
 		)
 		(stroke
@@ -370,6 +338,16 @@
 			(type default)
 		)
 		(uuid "ef57f69d-abb7-4170-aad2-06b0ef36b74e")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f193b593-3095-4374-9a7b-f6bf6650d751")
 	)
 	(text_box "Notes:\n\nPlaced 100 Ohm resistors on the UART, SPI,\nandd I2C lines to reduce ringing.\n\n- Clipped Sine Wave Oscillator is used as clock source to limit harmonics\n  (Used in RF applications)\n\nDecided to use ESDALC6V1W5 as ESD protection\nIs not ideal but should work for both\n3.3V and 5V pins and has low capacitance\n(Used by ST)\n\nVDDPA Supply Input supply for PA regulator\nTransmit high output power up to + 22 dBm, is supported through the RFO_HP RF pin. The\nHP PA can be supplied from the PA regulator (REG PA) up to 3.1 V.\nFor this, the REG PA must be supplied directly from VDD (on VDDSMPS pin)\n\nThe transmit low output power up to + 15 dBm, is supported through the RFO_LP pin. The\nLP PA can be supplied from the PA regulator (REG PA) up to 1.35 V. For this, the REG PA\nmust be supplied from the regulated VFBSMPS supply at 1.55 V, as shown in the figure\nbelow.\n\n- For High Power Transmission (HP) connect VDDPA to VDDSMPS\n- For Low Power Transmission (LP) connect VDDPA to VDDRF1V55\n- Use NX3L1T3157GM to switch between the two\n(Source mb1389)\n\nVR_PA Supply Regulated PA supply output\n\nTerminating resistors on signal lines"
 		(exclude_from_sim no)
@@ -392,7 +370,7 @@
 	)
 	(text "Things to finish:\n1. Test points\n2. RF impedance matching for my\nintended antenna\n(simulation)\n3. Button expansion connector"
 		(exclude_from_sim no)
-		(at 281.686 91.694 0)
+		(at 281.94 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -511,7 +489,7 @@
 	)
 	(sheet
 		(at 200.66 24.13)
-		(size 49.53 99.695)
+		(size 49.53 100.33)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -679,16 +657,6 @@
 			)
 			(uuid "c3ac4a0e-5b8c-4e55-aa41-afa2c2427c9b")
 		)
-		(pin "I{slash}O_HDR3" bidirectional
-			(at 200.66 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e478ed94-89f1-4c24-8b25-7666178697e4")
-		)
 		(pin "I{slash}O_HDR2" bidirectional
 			(at 200.66 73.66 180)
 			(effects
@@ -709,7 +677,7 @@
 			)
 			(uuid "7d42ad1c-c971-4760-9149-91e1e7681c30")
 		)
-		(pin "I{slash}O_HDR4" bidirectional
+		(pin "I{slash}O_HDR1" bidirectional
 			(at 200.66 78.74 180)
 			(effects
 				(font
@@ -717,27 +685,7 @@
 				)
 				(justify left)
 			)
-			(uuid "346aeeba-50b6-425c-bc97-b0890cbbf8cc")
-		)
-		(pin "I{slash}O_HDR1" bidirectional
-			(at 200.66 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 			(uuid "c530f8e6-9704-41fc-9646-ac735401754b")
-		)
-		(pin "I{slash}O_HDR5" bidirectional
-			(at 200.66 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8b7dce10-027e-4f70-b822-a7bc1457e528")
 		)
 		(instances
 			(project "LoRa_Board"
@@ -838,7 +786,7 @@
 			(uuid "015e97d2-e03d-44f8-95a0-12e6f1255fbb")
 		)
 		(pin "PA0_DEBUG_PWR-REGLP1S" bidirectional
-			(at 163.83 71.12 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +816,7 @@
 			(uuid "27936af0-a32e-479e-87c6-48bccf727aad")
 		)
 		(pin "PA8_MCO" output
-			(at 163.83 81.28 0)
+			(at 163.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +886,7 @@
 			(uuid "9d1c7e4c-b36e-4185-8a03-9c965b168d40")
 		)
 		(pin "PA11_DEBUG_RF-NRESET" bidirectional
-			(at 163.83 73.66 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +896,7 @@
 			(uuid "a2fdb1ce-c1ad-4d44-89ba-f3967ff92404")
 		)
 		(pin "PA10_DEBUG_RF-HSE32RDY" bidirectional
-			(at 163.83 76.2 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,16 +904,6 @@
 				(justify right)
 			)
 			(uuid "10acff87-e866-42d5-995a-7fa6431f27c9")
-		)
-		(pin "PB2_RFVCTRL" output
-			(at 163.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "16ac5956-0680-4ed1-9c87-2b94eca46d08")
 		)
 		(pin "PB3_SWO" bidirectional
 			(at 163.83 109.22 0)
@@ -1058,7 +996,7 @@
 			(uuid "3498e4e5-e038-48c8-9490-f24c4b7e1743")
 		)
 		(pin "PA9_USR_BTN" input
-			(at 163.83 97.79 0)
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1016,7 @@
 			(uuid "5c11c7b6-75fa-475c-ba8e-c0cba2f10369")
 		)
 		(pin "PC15-OSC32_OUT" bidirectional
-			(at 163.83 83.82 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1082,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 89.535)
+		(at 29.21 90.17)
 		(size 49.53 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -1156,7 +1094,7 @@
 		)
 		(uuid "e6eb96f4-8769-4ab2-bb8c-30c74f2fe241")
 		(property "Sheetname" "USB"
-			(at 29.21 88.8234 0)
+			(at 29.21 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1103,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 29.21 120.5996 0)
+			(at 29.21 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
