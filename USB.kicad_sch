@@ -2323,6 +2323,12 @@
 		(uuid "6952e011-9b31-4209-ba64-8a87cfdaa23c")
 	)
 	(junction
+		(at 167.64 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69777adf-94e3-475b-9bf1-10a0a899cc2f")
+	)
+	(junction
 		(at 205.74 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2347,12 +2353,6 @@
 		(uuid "8b39f6a1-afe7-43ad-9e38-a506c77529be")
 	)
 	(junction
-		(at 82.55 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ec02f02-c274-435a-8a31-8cfda91e09e8")
-	)
-	(junction
 		(at 205.74 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2363,6 +2363,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "962bb636-2e9c-4c3e-82be-d7986f3f2c8c")
+	)
+	(junction
+		(at 193.04 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a271576d-4558-4770-be58-3ae9266f9ac8")
 	)
 	(junction
 		(at 135.89 114.3)
@@ -2600,6 +2606,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 49.53) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b6d51d-4d6b-4df8-8ff4-5b3cf16a77ff")
+	)
+	(wire
+		(pts
 			(xy 205.74 74.93) (xy 205.74 72.39)
 		)
 		(stroke
@@ -2730,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 49.53) (xy 193.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680d81bc-467f-476a-82b9-7560e8689413")
+	)
+	(wire
+		(pts
 			(xy 135.89 95.25) (xy 162.56 95.25)
 		)
 		(stroke
@@ -2850,16 +2876,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 82.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b673f4-84a4-4d69-95ad-82c975c77faf")
-	)
-	(wire
-		(pts
 			(xy 167.64 58.42) (xy 167.64 69.85)
 		)
 		(stroke
@@ -2887,6 +2903,16 @@
 			(type default)
 		)
 		(uuid "8a785430-582d-40aa-b06d-63ee55f395ed")
+	)
+	(wire
+		(pts
+			(xy 193.04 59.69) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b465afd-65ec-4527-8955-9e4389d172a9")
 	)
 	(wire
 		(pts
@@ -3010,6 +3036,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 49.53) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6abbd3-f50a-4bfb-b976-1550212f3e2d")
+	)
+	(wire
+		(pts
 			(xy 125.73 97.79) (xy 125.73 102.87)
 		)
 		(stroke
@@ -3097,6 +3133,26 @@
 			(type default)
 		)
 		(uuid "d2047b76-6a13-41a5-a792-a9473e9d7b21")
+	)
+	(wire
+		(pts
+			(xy 199.39 46.99) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26b45da-dbd7-4009-a2e2-0c1227fde679")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 167.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3703736-66f6-48e7-a5b7-91ba55b16170")
 	)
 	(wire
 		(pts
@@ -3332,7 +3388,7 @@
 		)
 		(uuid "4471a717-0069-42da-b340-1a97c11cfbbd")
 	)
-	(label "VBUS"
+	(label "VBUS+"
 		(at 190.5 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3500,6 +3556,71 @@
 			(justify right)
 		)
 		(uuid "dda4d88f-5011-496d-9cff-d80a78882e89")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 199.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0864d83a-cfb4-453d-ba15-e04992953adb")
+		(property "Reference" "#PWR043"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS+"
+			(at 204.47 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d12e069-2eb5-489b-b410-3f05324f80da")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3699,6 +3820,76 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "325145fc-803d-4411-b91d-e04b9089eeab")
+		(property "Reference" "C9"
+			(at 192.024 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 192.278 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 192.0748 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a0a98d-99b2-463a-a5c3-87d0bfcba179")
+		)
+		(pin "2"
+			(uuid "f7bd86b4-7ea1-4332-8b24-f0f293164d05")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4300,71 +4491,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 82.55 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97c87976-22fa-4b1e-9b8b-800a3b66513d")
-		(property "Reference" "#PWR051"
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB_VBUS+"
-			(at 89.916 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ccbeb4c-fb04-4a96-b0c0-d12f8734ff8d")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5034,6 +5160,74 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdc9cf22-7d5c-4309-b3f0-d72d336d2412")
+		(property "Reference" "#PWR051"
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c16f3b-2663-42d7-bc5e-5737e0925d45")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
