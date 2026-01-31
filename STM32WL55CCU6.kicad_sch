@@ -7954,7 +7954,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "1n"
 			(at 173.736 107.188 90)
 			(effects
 				(font
@@ -8432,7 +8432,7 @@
 				)
 			)
 		)
-		(property "Value" "Oscillator_ECS-TXO-32CSMV-320-AN-TR"
+		(property "Value" "Oscillator_ATX-11-F-32.000MHZ-F05-T"
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -9708,7 +9708,7 @@
 				)
 			)
 		)
-		(property "Value" "Switch_NX3L1T3157GM,115"
+		(property "Value" "Switch_NX3L1T3157GMZ"
 			(at 58.42 168.91 0)
 			(effects
 				(font
