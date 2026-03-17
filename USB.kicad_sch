@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "4d7d520c-ab65-4c7b-8714-0ef0895eadd0")
 	(paper "USLetter")
+	(title_block
+		(title "LoRa Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -3324,16 +3330,6 @@
 		)
 		(uuid "fd592a60-823f-4a58-9f42-b43faddcf330")
 	)
-	(text "FT230XS as close as possible\nto USB port"
-		(exclude_from_sim no)
-		(at 132.334 123.444 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "175a2011-1691-401e-b3ad-052a0466b9e3")
-	)
 	(text "600 Ohms @ 100 MHz"
 		(exclude_from_sim no)
 		(at 144.526 63.754 0)
@@ -3343,17 +3339,6 @@
 			)
 		)
 		(uuid "b33a2063-e08c-4dde-9880-0e65efc07275")
-	)
-	(text "VBUS is the voltage from\nthe USB connector (5V)"
-		(exclude_from_sim no)
-		(at 80.01 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cabaae51-93b4-41da-b2c0-241e34953dc0")
 	)
 	(label "UART_RX"
 		(at 44.45 90.17 0)

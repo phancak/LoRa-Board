@@ -1,5 +1,8 @@
 # STM32WL55CCU6 LoRa Expansion Board  
 
+## 📑 Quick Access
+* [**📂 View Project Schematics (PDF)**](./Schematics/LoRa_Board_Schematics.pdf)
+
 ## Overview  
 This project features a **LoRa expansion board** based on the **STM32WL55CCU6 MCU**, designed to provide long-range, low-power wireless communication for embedded systems. With support for **I2C**, **UART**, and **SPI** communication interfaces, this board is ideal for integrating **LoRa** functionality into larger projects, enabling **reliable, long-range data transmission** in applications like **IoT** and **industrial automation**. The STM32WL55CCU6 offers an energy-efficient solution for **wireless connectivity** in remote or challenging environments.
 

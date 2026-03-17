@@ -5,9 +5,10 @@
 	(uuid "c365c9cc-2ba5-4eeb-b308-bacd479b02fd")
 	(paper "USLetter")
 	(title_block
-		(title "LORA_STM32WL55CCU6_Board")
-		(date "2025-10-14")
+		(title "LoRa Board")
+		(date "2026-03-17")
 		(rev "B")
+		(company "Peter Hancak")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -4925,17 +4926,6 @@
 		)
 		(uuid "e7292a3e-4b6b-41a6-81e1-30f680c4046f")
 	)
-	(text "BOOT0 Switch HIGH enables \nUART or I2C too allow\nprogramminng of the MCU"
-		(exclude_from_sim no)
-		(at 213.868 142.494 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1365d9cf-5acb-4a92-b056-ac69beb4ddf7")
-	)
 	(text "PIN1 NC = Oscillation"
 		(exclude_from_sim no)
 		(at 187.706 149.098 0)
@@ -4967,16 +4957,6 @@
 			)
 		)
 		(uuid "348cb9b4-a640-49f3-9bb6-6b1a8d0d745e")
-	)
-	(text "These capacitors must be placed as close\nas possible to (or below) the appropriate \npins on the underside of the PCB"
-		(exclude_from_sim no)
-		(at 34.798 57.15 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "3a4737bf-7fc5-407c-94ab-4805efb22f75")
 	)
 	(text "Clipped Sine Wave Oscillator\n- Series C eliminates DC component\n- MCU acciepots clock above zero so the \n  clock signal gets biased (increased)\n  inside the MCU."
 		(exclude_from_sim no)
@@ -5028,26 +5008,6 @@
 			)
 		)
 		(uuid "5704f66c-0993-421b-9036-9a9e7231c170")
-	)
-	(text "Regulated PA supply output"
-		(exclude_from_sim no)
-		(at 147.828 83.058 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "872b73fc-cbe6-474e-a64a-8bc1b8a17e95")
-	)
-	(text "4u7 capacitor added\nnear poower output"
-		(exclude_from_sim no)
-		(at 174.244 60.198 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "886e41e3-5db4-40b6-96a3-14d4b35023bb")
 	)
 	(text "VDDPA Supply Input supply for PA regulator"
 		(exclude_from_sim no)

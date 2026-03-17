@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "231fd248-cda7-4bdd-9d54-88586a57f568")
 	(paper "USLetter")
+	(title_block
+		(title "LoRa Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
