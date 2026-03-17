@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.25,
+          "gap": 0.5,
           "via_gap": 0.5,
-          "width": 0.235
+          "width": 0.1847
         }
       ],
       "drc_exclusions": [],
@@ -191,11 +191,13 @@
         0.1565,
         0.167,
         0.1765,
+        0.1847,
         0.2,
         0.235,
         0.25,
         0.3,
         0.5,
+        0.6,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -503,7 +505,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -520,7 +522,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -537,7 +539,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -554,7 +556,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 0)",
         "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.7,
@@ -571,7 +573,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 255, 0)",
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.25,
         "via_diameter": 0.7,
@@ -588,7 +590,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SMPS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 153, 0)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -622,7 +624,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -639,7 +641,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 132, 132)",
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -656,7 +658,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 194, 194)",
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.235,
         "via_diameter": 0.8,
@@ -667,13 +669,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3VA": "rgb(194, 0, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
       {
         "netclass": "GND",
         "pattern": "GND*"
@@ -681,10 +681,6 @@
       {
         "netclass": "PWR3V3",
         "pattern": "+3.3*"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "*RF*"
       },
       {
         "netclass": "RF",
@@ -741,6 +737,34 @@
       {
         "netclass": "PWR3V3",
         "pattern": "*VDD*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RF*"
+      },
+      {
+        "netclass": "PWR3V3",
+        "pattern": "*VBUS*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*BDP*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*DM*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*D2*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*CC1*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*CC2*"
       }
     ]
   },
@@ -749,7 +773,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -760,7 +784,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "LoRa_Board_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1046,7 +1070,7 @@
     ],
     [
       "3303ad38-3ac3-4e68-96af-2b05d17ec8a5",
-      "RF_ANT"
+      "Antenna"
     ],
     [
       "336ebea6-c9a7-4c8d-a774-b509fb11d0ab",
