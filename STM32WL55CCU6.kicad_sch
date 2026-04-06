@@ -1686,6 +1686,7 @@
 					(alternate "COMP2_INP" bidirectional line)
 					(alternate "DEBUG_JTDI" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
 					(alternate "TIM2_ETR" bidirectional line)
@@ -6814,7 +6815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Murata_BLM21AG102SZ1D"
+		(property "Value" "Murata_BLM21AG102SZ1D_1400R@1GHz"
 			(at 250.444 114.046 90)
 			(effects
 				(font
