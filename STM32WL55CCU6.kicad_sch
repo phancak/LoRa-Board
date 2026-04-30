@@ -1686,7 +1686,6 @@
 					(alternate "COMP2_INP" bidirectional line)
 					(alternate "DEBUG_JTDI" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
 					(alternate "TIM2_ETR" bidirectional line)
@@ -3215,6 +3214,12 @@
 		(uuid "72d4083d-de78-4da9-a8d1-7660f728c800")
 	)
 	(junction
+		(at 200.66 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c21c727-b4eb-4669-b1b1-0f7db51be540")
+	)
+	(junction
 		(at 245.11 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3293,10 +3298,6 @@
 	(no_connect
 		(at 133.35 116.84)
 		(uuid "9b537426-46fa-4e0a-850c-8d7fb5110749")
-	)
-	(no_connect
-		(at 196.85 144.78)
-		(uuid "a11638ef-e410-4ed9-bd39-13bf800426c3")
 	)
 	(wire
 		(pts
@@ -3860,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 142.24) (xy 200.66 151.13)
+			(xy 200.66 142.24) (xy 200.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3987,6 +3988,16 @@
 			(type default)
 		)
 		(uuid "63fc8116-65fb-4f06-8b05-754729fed510")
+	)
+	(wire
+		(pts
+			(xy 200.66 144.78) (xy 200.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a037215-d57f-45d4-a89d-fa66d42b0890")
 	)
 	(wire
 		(pts
@@ -4857,6 +4868,16 @@
 			(type default)
 		)
 		(uuid "f130ab5c-b88e-4108-a21a-f8ceec1e9569")
+	)
+	(wire
+		(pts
+			(xy 196.85 144.78) (xy 200.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13cd53b-c906-47e3-8767-77765907cd4f")
 	)
 	(wire
 		(pts
@@ -8393,7 +8414,7 @@
 				)
 			)
 		)
-		(property "Value" "Oscillator_ATX-11-F-32.000MHZ-F05-T"
+		(property "Value" "Oscillator_HCI 8132S-32.000MN33DTL"
 			(at 220.98 100.33 0)
 			(effects
 				(font
