@@ -282,7 +282,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "B"
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1155,7 +1155,7 @@
         "uuid": "34ccaf76-212c-4f8e-9afa-bb7eea5015e3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP15,C4-8,C10-13,C15-18,C20-23,C25,C27-32,C35-37,C40-43,C46,C51,C57,C69-72,C74-81,FB5-6,U15,SW2-3,L1-3,L8,L12-13,L19-23,#FLG1,#FLG3,#FLG6,#FLG14-15,J1,J3,J6,J8,J10,#PWR1,#PWR3-6,#PWR8,#PWR10-12,#PWR14,#PWR16,#PWR19,#PWR24-27,#PWR29,#PWR32-35,#PWR37,#PWR39,#PWR42,#PWR44,#PWR46-47,#PWR52-59,#PWR62,#PWR70-72,#PWR79,#PWR83,#PWR87,#PWR92-94,#PWR97,#PWR100,#PWR125-129,IC1-4,OS3-4,R1-2,R4,R8,R13,R32-33",
     "variants": []
   },
   "sheets": [
@@ -1164,16 +1164,16 @@
       "LoRa_Board"
     ],
     [
-      "5cd88786-5135-40a9-a16f-33c980150b98",
-      "STM32WL55CCU6"
+      "117e531b-7bad-4e6e-9d3c-bacfe44aee27",
+      "STM32WL55CCU6_GPIO"
     ],
     [
-      "3303ad38-3ac3-4e68-96af-2b05d17ec8a5",
-      "Antenna"
+      "b97492f5-9a37-4225-b429-0636b299cd06",
+      "STM32WL55CCU6_PWR"
     ],
     [
-      "336ebea6-c9a7-4c8d-a774-b509fb11d0ab",
-      "Interfaces"
+      "dbb7dfa9-09be-48b7-a8fa-f3aba6a1ada8",
+      "STM32WL55CCU6_RF"
     ],
     [
       "c04c6a26-8055-4d4b-aa4b-63838eda4582",
@@ -1182,6 +1182,18 @@
     [
       "e6eb96f4-8769-4ab2-bb8c-30c74f2fe241",
       "USB"
+    ],
+    [
+      "600384a5-bc1c-427e-a544-e94dc26e733a",
+      "SWD_USR-BTN"
+    ],
+    [
+      "336ebea6-c9a7-4c8d-a774-b509fb11d0ab",
+      "Interfaces"
+    ],
+    [
+      "2b5cc081-25c1-4502-a05c-1143639d304b",
+      "Notes"
     ]
   ],
   "text_variables": {},

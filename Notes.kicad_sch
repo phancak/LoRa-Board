@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "976ace60-b733-482b-9c61-89837b0d0ab9")
+	(paper "A4")
+	(title_block
+		(title "LoRa STM32WL55CCU6 Board")
+		(date "2026-06-22")
+		(rev "C")
+		(company "Peter Hancak")
+	)
+	(lib_symbols)
+	(text_box "STM32WL55CCU6 SETUP NOTES:\n- The HSE Clipped Sine Oscillator (TCXO) is powered by PB0_VDD_TCXO+ on the MCU.\n  1. Run the MCU on the intrenal LSI\n  2. Enable the power supply\n  3. Wait for the TCXO to start (max 2mS)\n  4. Switch to HSE\n\n- The MCU LSE (32.7 KHz) is turned ON through CTRL pin on SMPS TPS62740DSSR and power by the LOAD power pin.\n  1. Run the MCU on the intrenal LSI\n  2. Set the CTRL pin on SMPS TPS62740DSSR to HIGH (Enables the LOAD power pin)\n  3. Wait for the TCXO to start\n  4. Set MCU clock to LSE"
+		(exclude_from_sim no)
+		(at 20.32 21.59 0)
+		(size 81.28 41.91)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b45bc110-3fed-41c3-b711-2990365b780b")
+	)
+	(text_box "HARDWARE CONSIDERATIONS:\nEmbedded bootloader\nThe embedded bootloader is located in the system flash memory, programmed by\nSTMicroelectronics during production. It is used to program the flash memory using one of\nthe following device interfaces:\n• USART1 on pins PA9 and PA10\n• USART2 on pins PA2 and PA3\n• SPI1 on pins PA4, PA5, PA6 and PA7\n• SPI2S2 on pins PB12, PB13, PB14 and PB15\nThe embedded bootloader runs on the CPU1 and can be used to load content in non-secure\nmemory areas.\n"
+		(exclude_from_sim no)
+		(at 20.32 71.12 0)
+		(size 81.28 41.91)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e64c08b9-23a8-4079-be20-fcf044b642ed")
+	)
+)
