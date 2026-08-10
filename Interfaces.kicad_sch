@@ -2359,6 +2359,17 @@
 		)
 		(uuid "039e9b0d-f583-4303-b4db-2ed6c9c8c22c")
 	)
+	(text "Alt: MS353-30C"
+		(exclude_from_sim no)
+		(at 112.014 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e76eb3c-be4f-4c68-89fb-45a9440feabf")
+	)
 	(text "Place ESD close to the header"
 		(exclude_from_sim no)
 		(at 232.918 153.162 0)
@@ -2548,12 +2559,6 @@
 		(uuid "b56d566e-b19a-4a60-97cd-476c419f0b87")
 	)
 	(junction
-		(at 213.36 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7756160-b063-4a12-8720-424feaa49d94")
-	)
-	(junction
 		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2578,12 +2583,6 @@
 		(uuid "d5a50a2d-9dcb-4a4c-84f7-69c350696799")
 	)
 	(junction
-		(at 213.36 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d677a867-2084-4847-8b2e-e54bb96fa656")
-	)
-	(junction
 		(at 60.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,12 +2594,6 @@
 		(color 0 0 0 0)
 		(uuid "db2dabe4-118e-49ce-851e-77b54dc9b2fc")
 	)
-	(junction
-		(at 226.06 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcca2b3f-621f-432d-ba50-4d0326a32c7e")
-	)
 	(wire
 		(pts
 			(xy 152.4 127) (xy 157.48 127)
@@ -2610,16 +2603,6 @@
 			(type default)
 		)
 		(uuid "04296490-7c62-49bf-93e5-7cd936ad511b")
-	)
-	(wire
-		(pts
-			(xy 226.06 115.57) (xy 226.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048d183b-84d7-462f-a2b6-28556115dcfb")
 	)
 	(wire
 		(pts
@@ -2713,16 +2696,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 121.92) (xy 213.36 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe7b0ae-c10c-433c-adea-2edcbe915408")
-	)
-	(wire
-		(pts
 			(xy 167.64 40.64) (xy 170.18 40.64)
 		)
 		(stroke
@@ -2793,16 +2766,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 213.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24cec62c-a636-44ba-8db1-94a9c482a229")
-	)
-	(wire
-		(pts
 			(xy 60.96 48.26) (xy 60.96 53.34)
 		)
 		(stroke
@@ -2830,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "286768ec-7603-4a24-afb0-4527eb615055")
-	)
-	(wire
-		(pts
-			(xy 226.06 102.87) (xy 226.06 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a16c89-6061-44b0-b52c-6ab037fb5a9e")
 	)
 	(wire
 		(pts
@@ -2970,16 +2923,6 @@
 			(type default)
 		)
 		(uuid "48c2f568-3590-474e-853c-424438ca4944")
-	)
-	(wire
-		(pts
-			(xy 213.36 115.57) (xy 213.36 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af33747-2629-4d7d-8d3f-3fe22f51a44b")
 	)
 	(wire
 		(pts
@@ -3133,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 226.06 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618302e9-2477-476c-bffe-2ab5d05b63b5")
-	)
-	(wire
-		(pts
 			(xy 60.96 60.96) (xy 60.96 66.04)
 		)
 		(stroke
@@ -3213,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 226.06 127)
+			(xy 212.09 127) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
@@ -3433,16 +3366,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 100.33) (xy 193.04 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9a7b92-4b25-4b51-b07f-d3ae88c40f03")
-	)
-	(wire
-		(pts
 			(xy 55.88 45.72) (xy 73.66 45.72)
 		)
 		(stroke
@@ -3460,16 +3383,6 @@
 			(type default)
 		)
 		(uuid "b10d8e0c-ed61-4cfd-8dcf-ffc8ade59843")
-	)
-	(wire
-		(pts
-			(xy 193.04 102.87) (xy 213.36 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b88a50-a62c-40a6-b906-789c25ac4d1b")
 	)
 	(wire
 		(pts
@@ -3563,16 +3476,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 231.14 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cc4ab7-b640-45fb-b7bd-087219835deb")
-	)
-	(wire
-		(pts
 			(xy 60.96 53.34) (xy 60.96 55.88)
 		)
 		(stroke
@@ -3613,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 121.92) (xy 213.36 121.92)
+			(xy 196.85 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4126,88 +4029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 226.06 111.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17f26897-e404-4f85-8c7e-65f9dbb2b498")
-		(property "Reference" "R20"
-			(at 228.092 108.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 227.838 118.872 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 227.838 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "985a3668-6cec-4612-b41e-6a3dbcc5bba6")
-		)
-		(pin "1"
-			(uuid "08abc073-7992-4518-9845-279cabc19682")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/336ebea6-c9a7-4c8d-a774-b509fb11d0ab"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 124.46 270)
 		(unit 1)
@@ -4440,85 +4261,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/336ebea6-c9a7-4c8d-a774-b509fb11d0ab"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 193.04 100.33 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e5f884f-2239-43ad-b920-af9c7ea90b9d")
-		(property "Reference" "#PWR040"
-			(at 193.04 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 191.008 97.282 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 193.04 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0f9b187-7edf-4fa6-896f-85fab47be522")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/336ebea6-c9a7-4c8d-a774-b509fb11d0ab"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5256,87 +4998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 213.36 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7eff28e2-053e-439c-b4d9-7fb4d71f5811")
-		(property "Reference" "R18"
-			(at 214.63 108.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 215.138 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 211.582 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e30e29c-e9a0-4d23-9ddf-f188f9db2aca")
-		)
-		(pin "1"
-			(uuid "c28e802b-85dc-4819-ac6b-bc7f23398f3a")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/336ebea6-c9a7-4c8d-a774-b509fb11d0ab"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 68.58 162.56 0)
 		(unit 1)
@@ -5449,7 +5110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal_Project:RF_Shield_MS631-10F"
+		(property "Footprint" "Personal_Projects:RFSHIELD_MS353-30F"
 			(at 121.92 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6556,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal"
 			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 42.418 90)
 			(hide yes)
 			(show_name no)
