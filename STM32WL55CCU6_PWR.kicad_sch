@@ -2679,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.3562 19.1262) (xy 0.0762 19.1262)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bdd95d-b782-4dec-a4ad-00177b65ff20")
-	)
-	(wire
-		(pts
 			(xy 140.97 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -3079,16 +3069,6 @@
 	)
 	(wire
 		(pts
-			(xy 0.0762 19.1262) (xy 0.0762 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca100fb7-5b2b-4bbf-8c51-0986ac500d1b")
-	)
-	(wire
-		(pts
 			(xy 69.85 83.82) (xy 90.17 83.82)
 		)
 		(stroke
@@ -3156,16 +3136,6 @@
 			(type default)
 		)
 		(uuid "dbdc6da8-9856-4cc3-959c-12e207618e61")
-	)
-	(wire
-		(pts
-			(xy 0.0762 0.0762) (xy 8.9662 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbfd7bc6-6c12-4e60-a88e-0f91807d0aad")
 	)
 	(wire
 		(pts
@@ -3316,16 +3286,6 @@
 			(justify left bottom)
 		)
 		(uuid "69bc5578-e1f9-4097-9e41-892b77110373")
-	)
-	(label "VDDSMPS"
-		(at 181.61 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bac5278-0ef7-4738-868c-b0e2fa9cc4be")
 	)
 	(label "VFBSMPS"
 		(at 167.64 100.33 180)

@@ -1815,8 +1815,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 40.386 8.636 0)
+			(property "Reference" "U5"
+				(at 20.955 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1826,7 +1826,7 @@
 				)
 			)
 			(property "Value" "CP2102N-A02-GQFN24R"
-				(at 53.848 5.842 0)
+				(at 20.955 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2050,7 +2050,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "RSTb"
@@ -3589,6 +3589,12 @@
 		(uuid "8b39f6a1-afe7-43ad-9e38-a506c77529be")
 	)
 	(junction
+		(at 148.59 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe16280-d331-4e05-9262-912041bac86e")
+	)
+	(junction
 		(at 113.03 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4404,17 +4410,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 110.49) (xy 104.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4cfc82-200b-4227-b94c-ca3533ee406a")
-	)
-	(wire
-		(pts
-			(xy 142.24 105.41) (xy 153.67 105.41)
+			(xy 142.24 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4471,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "77720408-49d9-43ec-ac07-5e02bf95d963")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78804034-6df2-4239-8966-fc018ff36a35")
 	)
 	(wire
 		(pts
@@ -4611,6 +4617,16 @@
 			(type default)
 		)
 		(uuid "862d80e9-8467-40c9-ba96-b5edb82a8ab7")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8817ed3c-fc13-4366-86b7-c944023ae4ca")
 	)
 	(wire
 		(pts
@@ -5232,6 +5248,16 @@
 		)
 		(uuid "feebe2bc-a0f4-4478-b0b3-e856d4c9623a")
 	)
+	(label "SUSPENDb"
+		(at 237.49 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0012705f-8139-40ed-9d29-db06a9f6f903")
+	)
 	(label "CP2102N_NRST"
 		(at 53.34 130.81 180)
 		(effects
@@ -5241,16 +5267,6 @@
 			(justify right bottom)
 		)
 		(uuid "270c2f55-dae5-4257-8312-1ef1807d1918")
-	)
-	(label "SUSPEND"
-		(at 237.49 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "272337a6-63ee-4c4e-ab14-2e69cdd5d8be")
 	)
 	(label "SUSPENDb"
 		(at 48.26 115.57 0)
@@ -5281,16 +5297,6 @@
 			(justify right bottom)
 		)
 		(uuid "3e89d1c4-c127-4dcd-b144-aff9825b6775")
-	)
-	(label "SUSPENDb"
-		(at 189.23 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4230a6a7-f598-4369-a4f7-ad2d2afba83f")
 	)
 	(label "VBUS+"
 		(at 199.39 40.64 180)
@@ -5482,6 +5488,16 @@
 		)
 		(uuid "9db87ca7-02c3-43c8-8ee9-9dfb6227cf46")
 	)
+	(label "RSTb"
+		(at 110.49 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a78d334d-8211-4d3c-a9e6-f151b1c87c22")
+	)
 	(label "CP2102N_D+"
 		(at 115.57 77.47 270)
 		(effects
@@ -5541,6 +5557,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0ecf38c-ee20-4165-a12d-403d776c33d4")
+	)
+	(label "SUSPEND"
+		(at 189.23 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6c3a8a7-b7a0-4bca-8305-2426eb9a820e")
 	)
 	(label "GPIO.1_RXT"
 		(at 48.26 120.65 0)
@@ -6149,7 +6175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6439,6 +6465,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4afd69a2-0372-4c1d-8858-e74332f69541")
+		(property "Reference" "#PWR0127"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.306 112.522 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f0250c4-51de-45b4-a71f-c54783e97537")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 90.17 270)
 		(mirror x)
@@ -6671,84 +6775,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 146.05 85.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ab8ea53-c455-4708-8a52-08275e7da43a")
-		(property "Reference" "#PWR0114"
-			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VIO"
-			(at 140.716 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eddf4b66-15e1-434d-92a1-07cf91fc80d1")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6993,7 +7019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.7048 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7036,6 +7062,84 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74d6cc40-abd0-4abf-81f6-f7782ead182a")
+		(property "Reference" "#PWR0116"
+			(at 144.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 140.462 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e36c29f4-3028-4797-8cbe-1e1bf82fe6c4")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -7532,7 +7636,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 144.78 132.08 0)
+		(at 146.05 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7541,9 +7645,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aa33d59c-6e11-424d-8a5c-7b0f792764b9")
-		(property "Reference" "#PWR0116"
-			(at 144.78 135.89 0)
+		(uuid "ab050a8d-0aa7-41d0-b085-a7e0c9e3ff55")
+		(property "Reference" "#PWR0114"
+			(at 146.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,8 +7657,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VIO"
-			(at 139.446 131.064 0)
+		(property "Value" "+3.3V"
+			(at 141.986 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7564,7 +7668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 132.08 0)
+			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7575,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 132.08 0)
+			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7586,7 +7690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 132.08 0)
+			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,12 +7701,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e9d7429-2a2b-48a5-830c-82f7d3c37592")
+			(uuid "3ea23c67-9e50-45b0-8751-a07e252439f3")
 		)
 		(instances
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
-					(reference "#PWR0116")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8212,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.2748 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8530,6 +8634,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 148.59 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc45cfe-348f-4f90-8672-fb747714eba9")
+		(property "Reference" "#FLG07"
+			(at 148.59 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 148.59 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f676c15a-7830-4890-8260-35d061220a4c")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 92.71 0)
 		(mirror y)
@@ -8606,83 +8789,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 160.02 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee7d05d5-36e4-4db7-b24f-8dc8a2eac9c7")
-		(property "Reference" "#PWR0127"
-			(at 160.02 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VIO"
-			(at 162.052 112.014 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a12b02c9-d231-4257-9f1d-253a7050aa2e")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8964,7 +9070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.6848 157.48 0)
 			(hide yes)
 			(show_name no)

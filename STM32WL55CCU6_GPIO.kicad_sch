@@ -3978,16 +3978,6 @@
 		)
 		(uuid "fecb36cf-32c1-4265-a8bc-28a4801404bb")
 	)
-	(label "PA10_SPI2_MOSI"
-		(at 74.93 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00151da2-fbb1-4808-b639-31f9c6a284b8")
-	)
 	(label "OSC_IN_1"
 		(at 194.31 83.82 180)
 		(effects
@@ -4048,6 +4038,26 @@
 		)
 		(uuid "2bec8f1b-1391-4d0a-80a2-fa8f640e9bf5")
 	)
+	(label "PA13_DEBUG_JTMS-SWDIO"
+		(at 74.93 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3db64a73-5664-449b-8b37-f60ecfdc19f1")
+	)
+	(label "PA12_DEBUG_RF-BUSY"
+		(at 74.93 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "491f832a-63d8-4fa3-8c49-163dbb37fc64")
+	)
 	(label "BOOT0"
 		(at 100.33 121.92 0)
 		(effects
@@ -4057,16 +4067,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f69150b-0a9b-47be-bed3-e6eb18067580")
-	)
-	(label "PA12_DEBUG_RF-BUSY"
-		(at 74.93 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53276afd-df2a-498a-8f37-698b62a02215")
 	)
 	(label "NRST"
 		(at 156.21 120.65 180)
@@ -4097,6 +4097,16 @@
 			(justify left bottom)
 		)
 		(uuid "5d38c97b-a737-45c1-894f-ea366b62073a")
+	)
+	(label "PA10_SPI2_MOSI"
+		(at 74.93 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f739d30-cb86-4a9e-89b0-7268245a374f")
 	)
 	(label "PH1-OSC_OUT"
 		(at 166.37 86.36 180)
@@ -4139,14 +4149,14 @@
 		(uuid "76e675f9-601a-4b3c-b999-4509406e9029")
 	)
 	(label "PA11_DEBUG_RF-NRESET"
-		(at 74.93 80.01 0)
+		(at 74.93 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "775dd9d1-5b77-41b8-8290-0f78deff21aa")
+		(uuid "854f7ec4-f623-46b2-b9d4-b94648f8cf57")
 	)
 	(label "BOOT0_GPIO"
 		(at 60.96 116.84 0)
@@ -4288,16 +4298,6 @@
 		)
 		(uuid "d559d41d-3c31-401a-98d3-37e9bbf12290")
 	)
-	(label "PA13_DEBUG_JTMS-SWDIO"
-		(at 74.93 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e434bf7e-f521-4d7d-af03-1cd2815dc39b")
-	)
 	(label "PA14_DEBUG_JTCK-SWCLK"
 		(at 74.93 87.63 0)
 		(effects
@@ -4425,6 +4425,17 @@
 		)
 		(uuid "3e6908e2-2036-48eb-8a5e-d2053797ccdc")
 	)
+	(hierarchical_label "PA12_DEBUG_RF-BUSY"
+		(shape input)
+		(at 74.93 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d0041bb-fb1c-4012-9bdf-8c5d4c42a978")
+	)
 	(hierarchical_label "PB12_SPI2_NSS"
 		(shape input)
 		(at 181.61 69.85 0)
@@ -4436,6 +4447,17 @@
 		)
 		(uuid "5f926f45-5554-4bea-a288-91f5b6db454d")
 	)
+	(hierarchical_label "PA11_DEBUG_RF-NRESET"
+		(shape input)
+		(at 74.93 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73f23c99-ba0d-4bea-a2e3-3ee12951de39")
+	)
 	(hierarchical_label "BOOT0_EXTCTR"
 		(shape input)
 		(at 57.15 119.38 180)
@@ -4446,17 +4468,6 @@
 			(justify right)
 		)
 		(uuid "76be822a-ef3a-48aa-9f03-e997b676374b")
-	)
-	(hierarchical_label "PA13_DEBUG_JTMS-SWDIO"
-		(shape input)
-		(at 74.93 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78c3ae88-78db-4bf4-b0bc-aab6eab48f77")
 	)
 	(hierarchical_label "PA6"
 		(shape input)
@@ -4491,17 +4502,6 @@
 		)
 		(uuid "8939fb5f-a0bc-4a0b-94dd-a4c77870fda8")
 	)
-	(hierarchical_label "PA11_DEBUG_RF-NRESET"
-		(shape input)
-		(at 74.93 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8961b0ef-36c0-46bd-9dfb-8aab599dfc07")
-	)
 	(hierarchical_label "PC15-OSC32_OUT"
 		(shape bidirectional)
 		(at 198.12 138.43 0)
@@ -4512,6 +4512,17 @@
 			(justify left)
 		)
 		(uuid "9170778b-b0a2-44f5-ab2c-58e0333a0297")
+	)
+	(hierarchical_label "PA10_SPI2_MOSI"
+		(shape input)
+		(at 74.93 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c24998-d66f-4a93-a1a6-bd323a3d6361")
 	)
 	(hierarchical_label "PB7_I2C1_SDA"
 		(shape input)
@@ -4568,17 +4579,6 @@
 		)
 		(uuid "c0509e64-b191-4152-ad13-ad5ac55c717b")
 	)
-	(hierarchical_label "PA12_DEBUG_RF-BUSY"
-		(shape input)
-		(at 74.93 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5be7d5d-e66d-4f4a-a138-36804d2848ec")
-	)
 	(hierarchical_label "PC13"
 		(shape bidirectional)
 		(at 97.79 101.6 180)
@@ -4634,6 +4634,17 @@
 		)
 		(uuid "e03d3fa7-561b-4524-930f-8e84a84c528c")
 	)
+	(hierarchical_label "PA13_DEBUG_JTMS-SWDIO"
+		(shape input)
+		(at 74.93 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc7a210a-98d3-4a2d-9d25-826088bb9796")
+	)
 	(hierarchical_label "BOOT0_GPIO"
 		(shape input)
 		(at 57.15 116.84 180)
@@ -4644,17 +4655,6 @@
 			(justify right)
 		)
 		(uuid "fdf2b2c1-d6f8-4336-9b1e-1277f2dadfe1")
-	)
-	(hierarchical_label "PA10_SPI2_MOSI"
-		(shape input)
-		(at 74.93 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe05bb49-2a2b-43f4-8bb0-b455b8d61f06")
 	)
 	(hierarchical_label "PA1_USART2_RTS"
 		(shape input)
@@ -5406,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
