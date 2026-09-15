@@ -3013,6 +3013,12 @@
 		(uuid "878ec6d6-0312-4f3b-9a71-628e0d642a00")
 	)
 	(junction
+		(at 233.68 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8db9f913-ad7d-41ae-a92b-4a88beabb1cb")
+	)
+	(junction
 		(at 55.88 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3130,6 +3136,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 121.92) (xy 238.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260bfa05-6649-43df-a31c-741045983a90")
+	)
+	(wire
+		(pts
+			(xy 233.68 124.46) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f7805-3b80-4be2-b532-ca1ae2aecc4b")
+	)
+	(wire
+		(pts
 			(xy 181.61 64.77) (xy 151.13 64.77)
 		)
 		(stroke
@@ -3180,16 +3206,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 257.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f574a82-103e-41ed-af8d-e1cf41352c02")
-	)
-	(wire
-		(pts
 			(xy 248.92 91.44) (xy 212.09 91.44)
 		)
 		(stroke
@@ -3197,16 +3213,6 @@
 			(type default)
 		)
 		(uuid "425186d1-6bad-4a8f-a5d9-e3a141e5ad9c")
-	)
-	(wire
-		(pts
-			(xy 231.14 124.46) (xy 257.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4460a011-718e-4b22-9ecf-5f5779552871")
 	)
 	(wire
 		(pts
@@ -3257,6 +3263,16 @@
 			(type default)
 		)
 		(uuid "4f09498c-1c31-499b-99f1-dc159d8d5fb5")
+	)
+	(wire
+		(pts
+			(xy 231.14 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f186f9c-532d-488e-8231-3f029218c4d7")
 	)
 	(wire
 		(pts
@@ -3670,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 121.92) (xy 238.76 121.92)
+			(xy 231.14 121.92) (xy 233.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5297,85 +5313,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 238.76 119.38 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "171b990f-5d19-4e30-8212-894dfbe5064b")
-		(property "Reference" "#PWR097"
-			(at 238.76 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 241.046 116.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34757c4e-87cc-4254-aa52-1639f8d70bf5")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/117e531b-7bad-4e6e-9d3c-bacfe44aee27"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 87.63 119.38 0)
 		(unit 1)
@@ -6892,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 119.38 0)
+		(at 238.76 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6903,7 +6840,7 @@
 		(dnp no)
 		(uuid "f2764a48-97e4-4821-8f3d-2fc68321066b")
 		(property "Reference" "#PWR0125"
-			(at 257.81 123.19 0)
+			(at 238.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,7 +6851,7 @@
 			)
 		)
 		(property "Value" "+3.3VLOAD"
-			(at 251.206 118.364 0)
+			(at 245.364 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6924,7 +6861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 119.38 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 119.38 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +6883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 119.38 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3446,7 +3446,7 @@
 		)
 		(uuid "0e2afab7-78e4-48ad-820c-af7ac1db5ad9")
 	)
-	(text_box "CP2102N-A02-GQFN24R NOTES:\n- SUSPEND Digital Output: This pin is driven high when the device enters the USB suspend state.\n- USB Suspend State: hardware-driven, low-power mode defined by the official USB specification. It allows the host computer to put a USB peripheral into a \"deep sleep\" when the bus goes idle, drastically cutting power consumption without breaking the connection.\n  - Can only draw 300uA in USB suspend mode\n  - The CP2102N will enter USB SUSPEND mode when it stops receiving start-of-frame SOF notification from the USB host. If the host PC is configured not to go to SUSPEND mode it will kee sending SOF.\n  - Upon the USB SUSPEND MODE interrupt there is around 7mS to comply with the current requiremments. "
+	(text_box "CP2102N-A02-GQFN24R NOTES:\n- SUSPEND Digital Output: This pin is driven high when the device enters the USB suspend state.\n- USB Suspend State: hardware-driven, low-power mode defined by the official USB specification. It allows the host computer to put a USB peripheral into a \"deep sleep\" when the bus goes idle, drastically cutting power consumption without breaking the connection.\n  - Can only draw 300uA in USB suspend mode\n  - The CP2102N will enter USB SUSPEND mode when it stops receiving start-of-frame SOF notification from the USB host. If the host PC is configured not to go to SUSPEND mode it will kee sending SOF.\n  - Upon the USB SUSPEND MODE interrupt there is around 7mS to comply with the current requiremments. \n - VIO is connected to VDD which outputs 3V3"
 		(exclude_from_sim no)
 		(at 20.32 153.67 0)
 		(size 81.28 41.91)
@@ -3647,12 +3647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c57cafa9-eb20-49d2-bf21-a4d510e4d1e1")
-	)
-	(junction
-		(at 142.24 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce76675f-2a7a-4999-86d7-f7400410d2ee")
 	)
 	(junction
 		(at 209.55 40.64)
@@ -4440,16 +4434,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 142.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ac7a2f-66a9-434e-b306-e2b1b82c9e7f")
-	)
-	(wire
-		(pts
 			(xy 48.26 120.65) (xy 62.23 120.65)
 		)
 		(stroke
@@ -4997,16 +4981,6 @@
 			(type default)
 		)
 		(uuid "d73c3b27-01a2-423c-99b3-b74cbc1a150b")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 146.05 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d848e262-77cb-4ce7-b37d-9e89f3878656")
 	)
 	(wire
 		(pts
@@ -7629,84 +7603,6 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 146.05 85.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab050a8d-0aa7-41d0-b085-a7e0c9e3ff55")
-		(property "Reference" "#PWR0114"
-			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 141.986 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ea23c67-9e50-45b0-8751-a07e252439f3")
-		)
-		(instances
-			(project "LoRa_Board"
-				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/e6eb96f4-8769-4ab2-bb8c-30c74f2fe241"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
