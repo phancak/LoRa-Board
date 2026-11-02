@@ -2676,6 +2676,12 @@
 		(uuid "16a0e043-94c9-4c29-9bc4-db7ab07f7913")
 	)
 	(junction
+		(at 45.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a906ef1-d1e5-490b-ac3c-69fa48d2ef8d")
+	)
+	(junction
 		(at 196.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2698,6 +2704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cd85342-3aad-4420-bb41-deade3f48709")
+	)
+	(junction
+		(at 36.83 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef4be5d-cc9a-4489-96de-eb9c2253032f")
 	)
 	(junction
 		(at 151.13 102.87)
@@ -3127,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 102.87) (xy 45.72 102.87)
+			(xy 33.02 102.87) (xy 36.83 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3457,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 102.87) (xy 36.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b4ea2c-6530-45e2-99c7-4481eb0ade6d")
+	)
+	(wire
+		(pts
 			(xy 45.72 105.41) (xy 63.5 105.41)
 		)
 		(stroke
@@ -3607,6 +3629,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 119.38) (xy 36.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde75654-2532-431f-bfa9-cbc18cf5085f")
+	)
+	(wire
+		(pts
 			(xy 109.22 67.31) (xy 109.22 69.85)
 		)
 		(stroke
@@ -3727,6 +3759,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 102.87) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6bb996-dddd-4b55-a88c-63ce73ccc285")
+	)
+	(wire
+		(pts
 			(xy 151.13 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -3794,6 +3836,16 @@
 			(type default)
 		)
 		(uuid "eee7c9ec-0842-4339-8ddb-f74e17b7acbd")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 45.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdfcdf9-bc39-43a1-a8de-72b8775cf14d")
 	)
 	(wire
 		(pts
@@ -7078,6 +7130,87 @@
 			(project "LoRa_Board"
 				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/c04c6a26-8055-4d4b-aa4b-63838eda4582"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1873638-fed7-49f9-a232-615a3a9d2b36")
+		(property "Reference" "C38"
+			(at 38.1 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 38.1 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 37.7952 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de0cb694-905f-4dfb-98a2-1027b2a32c4b")
+		)
+		(pin "2"
+			(uuid "0b236298-4203-481b-a784-37ad4a9dccdc")
+		)
+		(instances
+			(project "LoRa_Board"
+				(path "/34ccaf76-212c-4f8e-9afa-bb7eea5015e3/c04c6a26-8055-4d4b-aa4b-63838eda4582"
+					(reference "C38")
 					(unit 1)
 				)
 			)

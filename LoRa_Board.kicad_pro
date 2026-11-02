@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "height": 2.000001,
+          "width": 0.900001
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1218,7 +1218,7 @@
         "uuid": "34ccaf76-212c-4f8e-9afa-bb7eea5015e3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C38",
     "variants": []
   },
   "sheets": [
